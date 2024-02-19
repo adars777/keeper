@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  background-color: rgb(7, 62, 102);
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+}
+
+input {
+  margin: 50px 2px;
+  height: 50px;
+  width: 400px;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  border: 1px solid rgb(2, 56, 180);
+  background-color: rgb(204, 223, 241);
+}
+
+input:hover {
+  background-color: rgb(234, 239, 246);
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  margin: 0 100px;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.Add-btn {
+  height: 50px;
+  width: 90px;
+  box-shadow: 0 0 5px gray;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+.Add-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.delete {
+  border: none;
+  height: 20px;
+  width: 20px;
+  background: none;
+}
+
+.delete img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 50px 0 0;
+  width: 300px;
+}
+
+.list li {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+  /* list-style-type:decimal; */
+}
+
+.list .delete {
+  margin: 2px 20px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;
+  */align-content: center;
+  align-items: center;
+  margin: 5px 100px;
+  width: 400px;
+  border:none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgb(82, 23, 192);
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tags:hover {
+  text-shadow: 0 0 2px #000;
+}
