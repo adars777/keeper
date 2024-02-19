@@ -1,3 +1,7 @@
+This project is created by using of Simple React js.
+for store the data i'm use local storage.
+This Keeper is use as a notes or you can also use as to do app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
